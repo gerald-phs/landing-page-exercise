@@ -1,0 +1,200 @@
+﻿* {
+    border: 2px solid red;
+}
+
+body, html {
+    background-color: #1F2937;
+    font-family: 'Chivo', sans-serif;
+}
+
+.darkBlueSec {
+    background-color: #1F2937;
+}
+#nav_1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding-top: 0px;
+}
+.brandLogo {
+    flex: 4;
+    font-size: 36px;
+}
+.headerLink2 {
+    font-size: 32px;
+}
+
+.headerLink3 {
+    font-size: 32px;
+}
+
+
+.heroHeading { 
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    flex: 1;  
+}
+.subText {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: inline;
+}
+.heroParent {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 10px 20px 10px;
+}
+.leftHeroBox,
+.rightHeroBoxImg {
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.rightHeroBoxImg {
+    background-image: url(ainsley.png);
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 900px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.heroHeading.h1 {
+    font-size: 70px;
+    color: black;
+}
+/* Second section */
+.defaultColorSec {
+    background-color: ghostwhite;
+    margin: 0px 0px 10px 0px;
+    outline: 10px solid ghostwhite;
+    height: 600px;
+    }
+.eggBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.egg-1 {
+    flex: 1;
+    border-width: 6px;
+    border-radius: 10px;
+    border-color: deepskyblue;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.egg-2 {
+    flex: 1;
+    border-width: 6px;
+    border-radius: 10px;
+    border-color: deepskyblue;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.egg-3 {
+    flex: 1;
+    border-width: 6px;
+    border-radius: 10px;
+    border-color: deepskyblue;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.egg-4 {
+    flex: 1;
+    border-width: 6px;
+    border-radius: 10px;
+    border-color: deepskyblue;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.quoteSec {
+    background-color: #E5E7EB;
+    margin: 0px 0px 10px 0px;
+    outline: 10px solid #E5E7EB;
+    padding: 20px 20px 20px 20px;
+}
+.who {
+    text-align: right;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 500;
+}
+.qt-1 q {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+.callToAction {
+    background-color: #3882F6;
+}
+.infoHeader {
+    font-size: 36px;
+    font-weight: 500;
+    color: #1F2937;
+}
+.btn {
+    background-color: #3882F6;
+}
+
+
+/* Link colors that (should) fit with overall page style... */
+a:link {
+    color: darkgoldenrod;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: lightgoldenrodyellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* Copyright, GitHub and FontAwesome (I liked it a lot). */
+#cpyRht {
+    color: antiquewhite;
+    font-family: Georgia;
+    text-align: center;
+    padding-top: 5px;
+}
