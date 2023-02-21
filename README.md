@@ -1,6 +1,7 @@
 # Landing Page Study Project  
 ### Expected result:
 ![Webpage example](reference-webpage.png "The Odin Project's webpage example")  
+### Styles guide:
 ![CSS data](reference-styles-data.png "The Odin Project's webpage assigment proposed CSS values")  
 
 ## There are 3 things that are relevant here:
