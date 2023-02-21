@@ -59,7 +59,7 @@
 }
 
 .rightHeroBoxImg {
-    background-image: url(images/ainsley.png);
+    background-image: url(/images/ainsley.png);
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 900px;
