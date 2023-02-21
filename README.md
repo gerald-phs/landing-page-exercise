@@ -1,8 +1,13 @@
 # Landing Page Study Project  
-There are two things that are relevant:
-1. I have discovered APIs. I am god
+### Expected result:
+![Webpage example](reference-webpage.png "The Odin Project's webpage example")  
+![CSS data](reference-styles-data.png "The Odin Project's webpage assigment proposed CSS values")  
 
-2.
+## There are 3 things that are relevant here:
+1. Eggs
+2. I have discovered APIs. I am god
+3. 
+
 >"Lumber`h`acks". 
 
 I came up with that. ~~Is that allowed?~~ (*I reflected on it for 3 hours and came to a conclusion that it's a good joke.*) 
