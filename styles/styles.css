@@ -1,33 +1,36 @@
-﻿* {
-    border: 2px solid red;
+﻿body, html {
+		background-color: #1F2937;
+		font-family: 'Chivo', sans-serif;
 }
 
-body, html {
-    background-color: #1F2937;
-    font-family: 'Chivo', sans-serif;
+.heroParent > h1 {
+	color: mediumslateblue; 
+	text-align: center; 
+	border: 9px inset darkblue; 
+	background-color: #303e52; 
+	border-radius: 3px 9px;
 }
 
 .darkBlueSec {
     background-color: #1F2937;
 }
+
 #nav_1 {
     display: flex;
     justify-content: space-between;
     padding-bottom: 100px;
     padding-top: 0px;
 }
+
 .brandLogo {
     flex: 4;
     font-size: 36px;
 }
+
+.headerLink1,
 .headerLink2 {
     font-size: 32px;
 }
-
-.headerLink3 {
-    font-size: 32px;
-}
-
 
 .heroHeading { 
     font-size: 48px;
@@ -35,55 +38,38 @@ body, html {
     color: #F9FAF8;
     flex: 1;  
 }
+
 .subText {
     font-size: 18px;
     color: #E5E7EB;
     display: inline;
 }
+
 .heroParent {
     display: flex;
     justify-content: space-evenly;
     padding: 10px 10px 20px 10px;
 }
+
 .leftHeroBox,
 .rightHeroBoxImg {
     flex: 1;
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .rightHeroBoxImg {
-    background-image: url(ainsley.png);
+    background-image: url(images/ainsley.png);
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 900px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .heroHeading.h1 {
     font-size: 70px;
     color: black;
 }
+
 /* Second section */
 .defaultColorSec {
     background-color: ghostwhite;
@@ -91,11 +77,13 @@ body, html {
     outline: 10px solid ghostwhite;
     height: 600px;
     }
+
 .eggBox {
     display: flex;
     justify-content: space-around;
     align-items: stretch;
 }
+
 .egg-1 {
     flex: 1;
     border-width: 6px;
@@ -139,37 +127,42 @@ body, html {
     margin-left: 10px;
     margin-right: 10px;
 }
+
 .quoteSec {
     background-color: #E5E7EB;
     margin: 0px 0px 10px 0px;
     outline: 10px solid #E5E7EB;
     padding: 20px 20px 20px 20px;
 }
+
 .who {
     text-align: right;
     font-size: 48px;
     font-style: italic;
     font-weight: 500;
 }
+
 .qt-1 q {
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
 }
+
 .callToAction {
     background-color: #3882F6;
 }
+
 .infoHeader {
     font-size: 36px;
     font-weight: 500;
     color: #1F2937;
 }
+
 .btn {
     background-color: #3882F6;
 }
 
-
-/* Link colors that (should) fit with overall page style... */
+/* Link colors */
 a:link {
     color: darkgoldenrod;
     background-color: transparent;
